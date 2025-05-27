@@ -68,7 +68,7 @@ cv:
         location: Japan
     skills:
       - label: Programming
-        details: Python, OpenAI, Ollama, FastAPI, Transformers, PyTorch, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI/CD, MLOps, Agile, Scrum
+        details: Python, OpenAI, Transformers, PyTorch, FastAPI, Qdrant, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI/CD,  Agile, Scrum
       - label: Cloud Platforms
         details: Microsoft Azure, Google Cloud, Amazon Web Services
       - label: Languages
@@ -77,10 +77,10 @@ cv:
       - name: Certified ScrumMaster (CSM)
         issuer: Scrum Alliance
         date: 2024-06
-      - name: Data Science Professional
+      - name: Databricks - Data Science Professional
         issuer: Databricks
         date: 2021-06
-      - name: Academy Accreditation - Delta Lake Essentials
+      - name: Databricks - Delta Lake Essentials
         issuer: Databricks
         date: 2021-06
       - name: Japanese Patent Attorney
@@ -110,9 +110,59 @@ cv:
         url: https://research.chalmers.se/en/publication/534112
         doi: 10.1201/9781003348443-258
     extracurricular_activities:
-      - bullet: A board member of Japanese School Association in Stockholm
+      - bullet: "2024-05 - present: A board member of Japanese School Association in Stockholm"
+
+
     projects:
-      - name: Fruit Quality Assessment System
+      - name: LLM Agents Development
+        company: IT Services industry
+        position: Project lead
+        date:
+        start_date: 2025-05
+        end_date: present
+        summary: Led the team to develop a backend for an agentic system integrated in the existing client's application.
+        highlights:
+          - "Delivered strong results in 2 days hackathon as a starting point"
+          - "Designed the architecture of the agentic system using MCP server"
+          - "**Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP (Model Context Protocol)**, **Docker**"
+          - "*LLM agents*, *Agile*, *Hackathon*"
+      - name: Agentic Application Development
+        company: Distribution industry
+        position: Data scientist
+        date:
+        start_date: 2025-01
+        end_date: present
+        summary: Developed an agentic application to interect with private data through chat.
+        highlights:
+          - "Developed agents system on top of an open source chat interface"
+          - "Led the project to deliver a progress in fast iterations"
+          - "**Azure OpenAI**, **Open Web UI**,  **FastAPI**, **PydanticAI**, **BigQuery**, **Docker**"
+          - "*LLM agents*, *Agile*"
+      - name: LLM-based Document Generator
+        company: Construction industry
+        position: Project lead
+        date:
+        start_date: 2025-01
+        end_date: 2025-03
+        summary: Mentored a colleague to build a proof of concept application using ChatGPT for document generation.
+        highlights:
+          - "Built a RAG system to generate a document based on the past documents"
+          - "Led the project to deliver the proof of concept application in 2 months"
+          - "**Azure OpenAI**, **Gradio**,  **Chroma**, **Docker**, **Microsoft Azure**"
+          - "*Retrieval Augmented Generation (RAG)*, *LLM agents*, *Agile*"
+      - name: Water Leakage Prediction
+        company: Energy industry
+        position: Mentor
+        date:
+        start_date: 2024-10
+        end_date: 2025-05
+        summary: Mentored a developer to get started with machine learning to predict water leakages in the water distribution network.
+        highlights:
+          - "Mentored a developer to create a machine learning model to predict water leakages in the water distribution network"
+          - "Predicted leak time and location based on the given network topology and the pressure sensor data"
+          - "**scikit-learn**, **SciPy**, **NumPy**, **plotly**"
+          - "*Exploratory data analysis*, *Data visualization*"
+      - name: Fruit Quality Assessment Device
         company: Retail industry
         position: Project lead
         date:
@@ -120,24 +170,22 @@ cv:
         end_date: 2025-02
         summary: Led a team to develop hardware, GUI, and ML models for non-destructive fruit quality assessment.
         highlights:
-          - "Led a team to develop a hardware, a graphical user interface and machine learning models to estimate internal damage and ripeness of fruit without opening it"
           - "Facilitated communication to achieve the fastest and the best quality of delivery"
-          - "Technologies used: Raspberry Pi, Hardware Development, Sensors, 3D printing, Python"
-          - "Methods used: IoT, Infrared spectroscopy, Agile, Scrum"
-      - name: Document-based Chatbot
+          - "**Raspberry Pi**, **Sensors**, **3D printing**, **Python**"
+          - "*IoT*, *Infrared spectroscopy*, *Agile*, *Scrum*"
+      - name: RAG-based Chatbot
         company: Public sector
         position: Project lead
         date:
         start_date: 2024-09
-        end_date: 2024-10
+        end_date: 2024-11
         summary: Led a team to develop a chatbot prototype that generates answers based on internal documents.
         highlights:
-          - "Led a team to develop a chatbot prototype that generates answer based on the internal document"
           - "Mentoring new hires to get up and running as quickly as possible"
           - "Created a CI/CD pipeline to automate container deployment to Azure"
-          - "Technologies used: Azure OpenAI, Azure AI Search, Azure Document Intelligence, Azure App Service, Gradio, GitLab CI/CD, Docker"
-          - "Methods used: Retrieval Augmented Generation (RAG), ChatGPT, Agile, Scrum, Code review"
-      - name: LLM-based Consultant Profile Generator
+          - "**Azure OpenAI**, **Azure AI Search**, **Azure Document Intelligence**, **Azure App Service**, **Gradio**, **GitLab CI/CD**, **Docker**"
+          - "*Retrieval Augmented Generation (RAG)*, *Agile*, *Scrum*, *Code review*"
+      - name: LLM-based Consultant Profile Generation
         company: Savantic
         position: Supervisor
         date:
@@ -145,11 +193,10 @@ cv:
         end_date: 2024-04
         summary: Supervised a master's thesis on generating consultant profiles using LLMs such as Mistral.
         highlights:
-          - "Supervised a master's thesis aiming at the generation of an on-demand consultant profile using Large Language Models (LLMs) such as Mistral"
           - "Gave advice on open source vector databases and LLMs"
           - "Supported setting up infrastructures such as Azure OpenAI and RunPod (serverless GPU)"
-          - "Technologies used: Azure OpenAI, ChatGPT, Qdrant, Large Language Models (LLMs), Mistral, Serverless GPU"
-          - "Methods used: Retrieval Augmented Generation (RAG), Prompt engineering"
+          - "**Azure OpenAI**, **Qdrant**, **Mistral**, **Serverless GPU**"
+          - "*Retrieval Augmented Generation (RAG)*, *Prompt engineering*"
       - name: Data Pipeline Modernization
         company: Distribution industry
         position: Data engineer
@@ -158,11 +205,10 @@ cv:
         end_date: 2024-06
         summary: Developed and modernized data pipelines using Azure Databricks and CI/CD tools.
         highlights:
-          - "Developed several data pipelines using Azure Databricks with CI/CD tools like Github Actions"
           - "Introduced several modern features of Databricks such as Unity Catalog, Delta Live Tables and Databricks Asset Bundles"
           - "Developed DAX code for Power BI to process the data for dashboarding"
-          - "Technologies used: Apache Spark, PySpark, SparkSQL, Databricks, Unity Catalog, Delta Live Tables, Databricks Asset Bundles, Github Actions, Power BI, DAX"
-          - "Methods used: Data modeling, CI/CD, Agile, Scrum"
+          - "**Apache Spark**, **PySpark**, **SparkSQL**, **Databricks**, **Unity Catalog**, **Delta Live Tables**, **Databricks Asset Bundles**, **Github Actions**, **Power BI**, **DAX**"
+          - "*Data modeling*, *CI/CD*, *Agile*, *Scrum*"
       - name: ChatGPT Document Generator
         company: Construction industry
         position: Data scientist
@@ -171,11 +217,10 @@ cv:
         end_date: 2023-05
         summary: Built a proof of concept application using ChatGPT for document generation and vector database for PDF embeddings.
         highlights:
-          - "Built a proof of concept application that uses ChatGPT to create a document specific to their field of expertise"
           - "Built a vector database to store text embedding vectors extracted from PDF documents"
           - "Developed the prompt for ChatGPT to include the relevant past document in the context"
-          - "Technologies used: NLP, ChatGPT, Qdrant, Streamlit, Docker, Microsoft Azure"
-          - "Methods used: Prompt engineering, Agile"
+          - "**ChatGPT**, **Qdrant**, **Streamlit**, **Docker**, **Microsoft Azure**"
+          - "*Prompt engineering*, *Agile*"
       - name: ChatGPT Workshop
         company: Consulting industry
         position: Workshop tutor
@@ -184,10 +229,9 @@ cv:
         end_date: 2023-05
         summary: Delivered a one-day workshop on using ChatGPT with vector search, including Python and F# code samples.
         highlights:
-          - "Gave a one-day workshop for another consulting company on how to use ChatGPT with vector search"
           - "Prepared sample code in both Python and F# because the client mainly works on .NET"
-          - "Technologies used: ChatGPT, .NET, F#"
-          - "Methods used: Workshop"
+          - "**ChatGPT**, **.NET**, **F#**"
+          - "*Workshop*"
       - name: Streaming Data Processing Research
         company: Savantic
         position: Internal research
@@ -196,24 +240,22 @@ cv:
         end_date: 2022-12
         summary: Explored streaming data processing using Apache Kafka for an internal hackathon.
         highlights:
-          - "Explored streaming data processing using Apache Kafka"
           - "Prepared a stack of Confluent Kafka on an internal server for an internal hackathon"
           - "Prepared an IoT device as a data source as well as a sample MQTT consumer"
-          - "Technologies used: Apache Kafka, MQTT, Docker-compose"
-          - "Methods used: IoT, Hackathon"
+          - "**Apache Kafka**, **MQTT**, **Docker**"
+          - "*IoT*, *Hackathon*"
       - name: LIA Internship Supervision
         company: Savantic
         position: Supervisor
         date:
         start_date: 2022-09
         end_date: 2022-11
-        summary: Supervised a LIA internship focused on practical machine learning and data analysis.
+        summary: Supervised a LIA (Lärande i Arbete) internship focused on practical machine learning and data analysis.
         highlights:
-          - "Supervised a LIA (Lärande i Arbete) internship who aims learning machine learning in practice"
           - "Guided the interns on how to perform exploratory data analysis on the real data"
           - "Provided advice on how to present findings to a broader audience"
-          - "Technologies used: pandas, scikit-learn, plotly"
-          - "Methods used: Exploratory data analysis, Code review"
+          - "**pandas**, **scikit-learn**, **plotly**"
+          - "*Exploratory data analysis*, *Code review*"
       - name: Machine Translation API and ML Pipelines
         company: Tourism industry
         position: Data scientist
@@ -222,11 +264,10 @@ cv:
         end_date: 2023-04
         summary: Developed a machine translation API, ML pipelines, and a dashboard for ChatGPT testing.
         highlights:
-          - "Developed a machine translation API, machine learning pipelines, and a dashboard for testing ChatGPT, which was an emerging technology"
           - "Built the machine learning pipeline using Amazon SageMaker"
           - "Built the translation API using FastAPI and Amazon Lambda"
-          - "Technologies used: FastAPI, AWS SageMaker, AWS Lambda, Amazon ECR, Docker"
-          - "Methods used: Machine translation, MLOps, Agile"
+          - "**FastAPI**, **AWS SageMaker**, **AWS Lambda**, **Amazon ECR**, **Docker**"
+          - "*Machine translation*, *MLOps*, *Agile*"
       - name: Mobile Device Location Estimation
         company: Telecommunication industry
         position: Data scientist
@@ -238,8 +279,8 @@ cv:
           - "Developed new machine learning models to estimate the location of mobile device based only on the ping time series"
           - "Developed new gridding algorithms which are used in the aggregation of statistics"
           - "Applied geospatial functions in BigQuery, taking care of the amount of data, which is a few hundred GB per day per country"
-          - "Technologies used: BigQuery, OpenStreetMap, GeoPandas, NumPy, Shapely, NumPyro, PyStan, Google Cloud, Docker"
-          - "Methods used: Exploratory data analysis, Geospatial analysis, Bayesian hierarchical model, Agile"
+          - "**BigQuery**, **OpenStreetMap**, **GeoPandas**, **NumPy**, **Shapely**, **NumPyro**, **PyStan**, **Google Cloud**, **Docker**"
+          - "*Exploratory data analysis*, *Geospatial analysis*, *Bayesian hierarchical model*, *Agile*"
       - name: Physics Parameter Optimization
         company: Factory automation industry
         position: Data scientist
@@ -248,22 +289,21 @@ cv:
         end_date: 2022-04
         summary: Supported strategy and used Optuna for optimal physics parameter search in fluid property models.
         highlights:
-          - "Supported a colleague in building the strategy and the customer relationship"
           - "Suggested using Optuna to find the optimal physics parameters in the model which estimate the fluid properties flowing through pipe"
-          - "Technologies used: Optuna, scikit-learn, SciPy, NumPy, pandas"
-          - "Methods used: Exploratory data analysis, Hyper parameter tuning"
+          - "**Optuna**, **scikit-learn**, **SciPy**, **NumPy**, **pandas**"
+          - "*Exploratory data analysis*, *Hyper parameter tuning*"
       - name: Travel Mode Detection Model
         company: Public transport research organization
         position: Data scientist
         date:
         start_date: 2021-09
         end_date: 2022-05
-        summary: Developed a model to estimate public transport share and travel time ratios, with dashboard presentation.
+        summary: Developed an unsupervised model to estimate public transport share and travel time ratios, with dashboard presentation.
         highlights:
-          - "Developed the travel mode detection model which can estimate the public transport share and the ratio of the travel time between the public transport and the private car"
           - "Presented the results in a dashboard developed by Plotly Dash"
-          - "Technologies used: scikit-learn, SciPy, NumPy, pandas, Plotly, Dash, Docker"
-          - "Methods used: Exploratory data analysis, Data visualization"
+          - "Developed an unsupervised model to estimate public transport share and travel time ratios"
+          - "**scikit-learn**, **SciPy**, **NumPy**, **pandas**, **Plotly**, **Dash**, **Docker**"
+          - "*Exploratory data analysis*, *Data visualization*"
       - name: Spare Parts Return Analysis
         company: Automotive industry
         position: Data scientist
@@ -272,11 +312,10 @@ cv:
         end_date: 2021-12
         summary: Analyzed returns of spare parts and created SQL queries for data aggregation and visualization.
         highlights:
-          - "Analyzed returns of spare parts for all kinds of car and build a basis of further analysis"
           - "Created SQL queries which aggregate data from a bunch of tables"
           - "Visualized the results to grasp an overview of the returns"
-          - "Technologies used: Microsoft SQL Server, pandas, Plotly"
-          - "Methods used: Exploratory data analysis, Agile"
+          - "**Microsoft SQL Server**, **pandas**, **Plotly**"
+          - "*Exploratory data analysis*, *Agile*"
       - name: GPT-2 Chatbot for Domestic Abuse Support
         company: Healthcare industry
         position: Data scientist
@@ -288,8 +327,8 @@ cv:
           - "Designed the training data for a GPT-2 based chatbot which consults people suffering in domestic abuse"
           - "Trained the GPT-2 based chatbot on a GPU in Azure"
           - "Deployed the model in Azure Functions as a web API, which can be invoked from the mobile app"
-          - "Technologies used: pandas, GPT-2, Plotly, Streamlit, Docker, Microsoft Azure"
-          - "Methods used: NLP, Training on GPU, Agile"
+          - "**pandas**, **GPT-2**, **Plotly**, **Streamlit**, **Docker**, **Microsoft Azure**"
+          - "*NLP*, *Training on GPU*, *Agile*"
       - name: Procurement Document Analysis Tools
         company: Construction industry
         position: Data scientist
@@ -301,8 +340,8 @@ cv:
           - "Developed text analysis and visualization tools using Elasticsearch, Kibana, and Streamlit for procurement documents in PDF"
           - "Deployed the applications as containerized web applications on Azure"
           - "Published [a paper in proceeding](https://research.chalmers.se/en/publication/534112) with the client"
-          - "Technologies used: Elasticsearch, Kibana, Streamlit, Docker, Docker-compose, Word2Vec, Plotly, Microsoft Azure"
-          - "Methods used: NLP, Agile"
+          - "**Elasticsearch**, **Kibana**, **Streamlit**, **Docker**, **Word2Vec**, **Plotly**, **Microsoft Azure**"
+          - "*NLP*, *Agile*"
       - name: What-if Tool for Public Transport
         company: Public transport industry
         position: Data scientist
@@ -314,8 +353,8 @@ cv:
           - "Built a prototype of a what-if tool which analyzes relationship between various driver values, such as punctuality, and target values, such as customer satisfaction index"
           - "Developed the dashboard in one week, including the requested feature and two novel features"
           - "Developed Bayesian hierarchical models to estimate relationship between the drivers and the targets for each user group"
-          - "Technologies used: NumPy, pandas, scikit-learn, NumPyro, GPy, Plotly, Dash, Voilà, Heroku"
-          - "Methods used: Exploratory data analysis, Data visualization, Bayesian hierarchical model"
+          - "**NumPy**, **pandas**, **scikit-learn**, **NumPyro**, **GPy**, **Plotly**, **Dash**, **Voilà**, **Heroku**"
+          - "*Exploratory data analysis*, *Data visualization*, *Bayesian hierarchical model*"
       - name: Stress Management Data Analysis
         company: Healthcare industry
         position: Data scientist
@@ -324,11 +363,10 @@ cv:
         end_date: 2021-02
         summary: Analyzed stress management app data, identified personality clusters, and published a peer-reviewed paper.
         highlights:
-          - "Analyzed the questionnaire and stress-related time series data collected by a stress management application"
           - "Identified clusters of personality traits that have strong confounding relationships with stress related variables"
           - "Published [a peer reviewed paper](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12436) with the client"
-          - "Technologies used: NumPy, pandas, scikit-learn, tslearn, GPy, Matplotlib, Plotly"
-          - "Methods used: Statistical test, Time series analysis"
+          - "**NumPy**, **pandas**, **scikit-learn**, **tslearn**, **GPy**, **Matplotlib**, **Plotly**"
+          - "*Statistical test*, *Time series analysis*"
       - name: Customer Journey Analysis
         company: Bank industry
         position: Data scientist
@@ -337,11 +375,10 @@ cv:
         end_date: 2020-12
         summary: Analyzed customer journey factors using NLP and Bayesian models.
         highlights:
-          - "Analyzed the factors that influence the customer journey, for example, the number of calls, personal background, and content of text messages"
           - "Used Natural Language Processing (NLP), which involves text classification, topic modelling, and feature extraction"
           - "Gained insights from time series analysis using Bayesian probabilistic models"
-          - "Technologies used: Gensim, PyTorch, NumPyro, Matplotlib"
-          - "Methods used: NLP, Exploratory data analysis, Bayesian probabilistic model"
+          - "**Gensim**, **PyTorch**, **NumPyro**, **Matplotlib**"
+          - "*NLP*, *Exploratory data analysis*, *Bayesian probabilistic model*"
       - name: Swedish Question Answering System
         company: Savantic
         position: Internal research
@@ -350,11 +387,10 @@ cv:
         end_date: 2020-11
         summary: Developed a closed domain QA system based on BERT for English and Swedish, published dataset and model.
         highlights:
-          - "developed a closed domain question answering system based on BERT in English and Swedish"
           - "Published [the Swedish SQuAD 2.0](https://huggingface.co/datasets/susumu2357/squad_v2_sv) dataset and [the fine-tuned model](huggingface.co/susumu2357/bert-base-swedish-squad2)"
           - "Established better scores on question answering task compared to the publicly available model"
-          - "Technologies used: Transformers, Google Cloud Translation, Tensorflow, PyTorch"
-          - "Methods used: Training on GPU"
+          - "**Transformers**, **Google Cloud Translation**, **Tensorflow**, **PyTorch**"
+          - "*Training on GPU*"
 design:
   theme: engineeringclassic
   page:

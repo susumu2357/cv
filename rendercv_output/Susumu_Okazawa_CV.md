@@ -51,7 +51,7 @@
 
 # Skills
 
-- Programming: Python, OpenAI, Ollama, FastAPI, Transformers, PyTorch, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI/CD, MLOps, Agile, Scrum
+- Programming: Python, OpenAI, Transformers, PyTorch, FastAPI, Qdrant, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI/CD,  Agile, Scrum
 - Cloud Platforms: Microsoft Azure, Google Cloud, Amazon Web Services
 - Languages: English (fluent), Japanese (native)
 # Certifications
@@ -60,11 +60,11 @@
 
 - June 2024
 
-## Data Science Professional
+## Databricks - Data Science Professional
 
 - June 2021
 
-## Academy Accreditation - Delta Lake Essentials
+## Databricks - Delta Lake Essentials
 
 - June 2021
 
@@ -84,87 +84,110 @@
 
 # Extracurricular Activities
 
-- A board member of Japanese School Association in Stockholm
+- 2024-05 - present: A board member of Japanese School Association in Stockholm
 # Projects
 
-## Fruit Quality Assessment System
+## LLM Agents Development
+
+- May 2025 – present
+- Delivered strong results in 2 days hackathon as a starting point
+- Designed the architecture of the agentic system using MCP server
+- **Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP (Model Context Protocol)**, **Docker**
+- *LLM agents*, *Agile*, *Hackathon*
+
+## Agentic Application Development
+
+- Jan 2025 – present
+- Developed agents system on top of an open source chat interface
+- Led the project to deliver a progress in fast iterations
+- **Azure OpenAI**, **Open Web UI**,  **FastAPI**, **PydanticAI**, **BigQuery**, **Docker**
+- *LLM agents*, *Agile*
+
+## LLM-based Document Generator
+
+- Jan 2025 – Mar 2025
+- Built a RAG system to generate a document based on the past documents
+- Led the project to deliver the proof of concept application in 2 months
+- **Azure OpenAI**, **Gradio**,  **Chroma**, **Docker**, **Microsoft Azure**
+- *Retrieval Augmented Generation (RAG)*, *LLM agents*, *Agile*
+
+## Water Leakage Prediction
+
+- Oct 2024 – May 2025
+- Mentored a developer to create a machine learning model to predict water leakages in the water distribution network
+- Predicted leak time and location based on the given network topology and the pressure sensor data
+- **scikit-learn**, **SciPy**, **NumPy**, **plotly**
+- *Exploratory data analysis*, *Data visualization*
+
+## Fruit Quality Assessment Device
 
 - Sept 2024 – Feb 2025
-- Led a team to develop a hardware, a graphical user interface and machine learning models to estimate internal damage and ripeness of fruit without opening it
 - Facilitated communication to achieve the fastest and the best quality of delivery
-- Technologies used: Raspberry Pi, Hardware Development, Sensors, 3D printing, Python
-- Methods used: IoT, Infrared spectroscopy, Agile, Scrum
+- **Raspberry Pi**, **Sensors**, **3D printing**, **Python**
+- *IoT*, *Infrared spectroscopy*, *Agile*, *Scrum*
 
-## Document-based Chatbot
+## RAG-based Chatbot
 
-- Sept 2024 – Oct 2024
-- Led a team to develop a chatbot prototype that generates answer based on the internal document
+- Sept 2024 – Nov 2024
 - Mentoring new hires to get up and running as quickly as possible
 - Created a CI/CD pipeline to automate container deployment to Azure
-- Technologies used: Azure OpenAI, Azure AI Search, Azure Document Intelligence, Azure App Service, Gradio, GitLab CI/CD, Docker
-- Methods used: Retrieval Augmented Generation (RAG), ChatGPT, Agile, Scrum, Code review
+- **Azure OpenAI**, **Azure AI Search**, **Azure Document Intelligence**, **Azure App Service**, **Gradio**, **GitLab CI/CD**, **Docker**
+- *Retrieval Augmented Generation (RAG)*, *Agile*, *Scrum*, *Code review*
 
-## LLM-based Consultant Profile Generator
+## LLM-based Consultant Profile Generation
 
 - Feb 2024 – Apr 2024
-- Supervised a master's thesis aiming at the generation of an on-demand consultant profile using Large Language Models (LLMs) such as Mistral
 - Gave advice on open source vector databases and LLMs
 - Supported setting up infrastructures such as Azure OpenAI and RunPod (serverless GPU)
-- Technologies used: Azure OpenAI, ChatGPT, Qdrant, Large Language Models (LLMs), Mistral, Serverless GPU
-- Methods used: Retrieval Augmented Generation (RAG), Prompt engineering
+- **Azure OpenAI**, **Qdrant**, **Mistral**, **Serverless GPU**
+- *Retrieval Augmented Generation (RAG)*, *Prompt engineering*
 
 ## Data Pipeline Modernization
 
 - May 2023 – June 2024
-- Developed several data pipelines using Azure Databricks with CI/CD tools like Github Actions
 - Introduced several modern features of Databricks such as Unity Catalog, Delta Live Tables and Databricks Asset Bundles
 - Developed DAX code for Power BI to process the data for dashboarding
-- Technologies used: Apache Spark, PySpark, SparkSQL, Databricks, Unity Catalog, Delta Live Tables, Databricks Asset Bundles, Github Actions, Power BI, DAX
-- Methods used: Data modeling, CI/CD, Agile, Scrum
+- **Apache Spark**, **PySpark**, **SparkSQL**, **Databricks**, **Unity Catalog**, **Delta Live Tables**, **Databricks Asset Bundles**, **Github Actions**, **Power BI**, **DAX**
+- *Data modeling*, *CI/CD*, *Agile*, *Scrum*
 
 ## ChatGPT Document Generator
 
 - Apr 2023 – May 2023
-- Built a proof of concept application that uses ChatGPT to create a document specific to their field of expertise
 - Built a vector database to store text embedding vectors extracted from PDF documents
 - Developed the prompt for ChatGPT to include the relevant past document in the context
-- Technologies used: NLP, ChatGPT, Qdrant, Streamlit, Docker, Microsoft Azure
-- Methods used: Prompt engineering, Agile
+- **ChatGPT**, **Qdrant**, **Streamlit**, **Docker**, **Microsoft Azure**
+- *Prompt engineering*, *Agile*
 
 ## ChatGPT Workshop
 
 - May 2023 – May 2023
-- Gave a one-day workshop for another consulting company on how to use ChatGPT with vector search
 - Prepared sample code in both Python and F# because the client mainly works on .NET
-- Technologies used: ChatGPT, .NET, F#
-- Methods used: Workshop
+- **ChatGPT**, **.NET**, **F#**
+- *Workshop*
 
 ## Streaming Data Processing Research
 
 - Dec 2022 – Dec 2022
-- Explored streaming data processing using Apache Kafka
 - Prepared a stack of Confluent Kafka on an internal server for an internal hackathon
 - Prepared an IoT device as a data source as well as a sample MQTT consumer
-- Technologies used: Apache Kafka, MQTT, Docker-compose
-- Methods used: IoT, Hackathon
+- **Apache Kafka**, **MQTT**, **Docker**
+- *IoT*, *Hackathon*
 
 ## LIA Internship Supervision
 
 - Sept 2022 – Nov 2022
-- Supervised a LIA (Lärande i Arbete) internship who aims learning machine learning in practice
 - Guided the interns on how to perform exploratory data analysis on the real data
 - Provided advice on how to present findings to a broader audience
-- Technologies used: pandas, scikit-learn, plotly
-- Methods used: Exploratory data analysis, Code review
+- **pandas**, **scikit-learn**, **plotly**
+- *Exploratory data analysis*, *Code review*
 
 ## Machine Translation API and ML Pipelines
 
 - Sept 2022 – Apr 2023
-- Developed a machine translation API, machine learning pipelines, and a dashboard for testing ChatGPT, which was an emerging technology
 - Built the machine learning pipeline using Amazon SageMaker
 - Built the translation API using FastAPI and Amazon Lambda
-- Technologies used: FastAPI, AWS SageMaker, AWS Lambda, Amazon ECR, Docker
-- Methods used: Machine translation, MLOps, Agile
+- **FastAPI**, **AWS SageMaker**, **AWS Lambda**, **Amazon ECR**, **Docker**
+- *Machine translation*, *MLOps*, *Agile*
 
 ## Mobile Device Location Estimation
 
@@ -172,33 +195,31 @@
 - Developed new machine learning models to estimate the location of mobile device based only on the ping time series
 - Developed new gridding algorithms which are used in the aggregation of statistics
 - Applied geospatial functions in BigQuery, taking care of the amount of data, which is a few hundred GB per day per country
-- Technologies used: BigQuery, OpenStreetMap, GeoPandas, NumPy, Shapely, NumPyro, PyStan, Google Cloud, Docker
-- Methods used: Exploratory data analysis, Geospatial analysis, Bayesian hierarchical model, Agile
+- **BigQuery**, **OpenStreetMap**, **GeoPandas**, **NumPy**, **Shapely**, **NumPyro**, **PyStan**, **Google Cloud**, **Docker**
+- *Exploratory data analysis*, *Geospatial analysis*, *Bayesian hierarchical model*, *Agile*
 
 ## Physics Parameter Optimization
 
 - Feb 2022 – Apr 2022
-- Supported a colleague in building the strategy and the customer relationship
 - Suggested using Optuna to find the optimal physics parameters in the model which estimate the fluid properties flowing through pipe
-- Technologies used: Optuna, scikit-learn, SciPy, NumPy, pandas
-- Methods used: Exploratory data analysis, Hyper parameter tuning
+- **Optuna**, **scikit-learn**, **SciPy**, **NumPy**, **pandas**
+- *Exploratory data analysis*, *Hyper parameter tuning*
 
 ## Travel Mode Detection Model
 
 - Sept 2021 – May 2022
-- Developed the travel mode detection model which can estimate the public transport share and the ratio of the travel time between the public transport and the private car
 - Presented the results in a dashboard developed by Plotly Dash
-- Technologies used: scikit-learn, SciPy, NumPy, pandas, Plotly, Dash, Docker
-- Methods used: Exploratory data analysis, Data visualization
+- Developed an unsupervised model to estimate public transport share and travel time ratios
+- **scikit-learn**, **SciPy**, **NumPy**, **pandas**, **Plotly**, **Dash**, **Docker**
+- *Exploratory data analysis*, *Data visualization*
 
 ## Spare Parts Return Analysis
 
 - Nov 2021 – Dec 2021
-- Analyzed returns of spare parts for all kinds of car and build a basis of further analysis
 - Created SQL queries which aggregate data from a bunch of tables
 - Visualized the results to grasp an overview of the returns
-- Technologies used: Microsoft SQL Server, pandas, Plotly
-- Methods used: Exploratory data analysis, Agile
+- **Microsoft SQL Server**, **pandas**, **Plotly**
+- *Exploratory data analysis*, *Agile*
 
 ## GPT-2 Chatbot for Domestic Abuse Support
 
@@ -206,8 +227,8 @@
 - Designed the training data for a GPT-2 based chatbot which consults people suffering in domestic abuse
 - Trained the GPT-2 based chatbot on a GPU in Azure
 - Deployed the model in Azure Functions as a web API, which can be invoked from the mobile app
-- Technologies used: pandas, GPT-2, Plotly, Streamlit, Docker, Microsoft Azure
-- Methods used: NLP, Training on GPU, Agile
+- **pandas**, **GPT-2**, **Plotly**, **Streamlit**, **Docker**, **Microsoft Azure**
+- *NLP*, *Training on GPU*, *Agile*
 
 ## Procurement Document Analysis Tools
 
@@ -215,8 +236,8 @@
 - Developed text analysis and visualization tools using Elasticsearch, Kibana, and Streamlit for procurement documents in PDF
 - Deployed the applications as containerized web applications on Azure
 - Published [a paper in proceeding](https://research.chalmers.se/en/publication/534112) with the client
-- Technologies used: Elasticsearch, Kibana, Streamlit, Docker, Docker-compose, Word2Vec, Plotly, Microsoft Azure
-- Methods used: NLP, Agile
+- **Elasticsearch**, **Kibana**, **Streamlit**, **Docker**, **Word2Vec**, **Plotly**, **Microsoft Azure**
+- *NLP*, *Agile*
 
 ## What-if Tool for Public Transport
 
@@ -224,33 +245,30 @@
 - Built a prototype of a what-if tool which analyzes relationship between various driver values, such as punctuality, and target values, such as customer satisfaction index
 - Developed the dashboard in one week, including the requested feature and two novel features
 - Developed Bayesian hierarchical models to estimate relationship between the drivers and the targets for each user group
-- Technologies used: NumPy, pandas, scikit-learn, NumPyro, GPy, Plotly, Dash, Voilà, Heroku
-- Methods used: Exploratory data analysis, Data visualization, Bayesian hierarchical model
+- **NumPy**, **pandas**, **scikit-learn**, **NumPyro**, **GPy**, **Plotly**, **Dash**, **Voilà**, **Heroku**
+- *Exploratory data analysis*, *Data visualization*, *Bayesian hierarchical model*
 
 ## Stress Management Data Analysis
 
 - Jan 2021 – Feb 2021
-- Analyzed the questionnaire and stress-related time series data collected by a stress management application
 - Identified clusters of personality traits that have strong confounding relationships with stress related variables
 - Published [a peer reviewed paper](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12436) with the client
-- Technologies used: NumPy, pandas, scikit-learn, tslearn, GPy, Matplotlib, Plotly
-- Methods used: Statistical test, Time series analysis
+- **NumPy**, **pandas**, **scikit-learn**, **tslearn**, **GPy**, **Matplotlib**, **Plotly**
+- *Statistical test*, *Time series analysis*
 
 ## Customer Journey Analysis
 
 - Nov 2020 – Dec 2020
-- Analyzed the factors that influence the customer journey, for example, the number of calls, personal background, and content of text messages
 - Used Natural Language Processing (NLP), which involves text classification, topic modelling, and feature extraction
 - Gained insights from time series analysis using Bayesian probabilistic models
-- Technologies used: Gensim, PyTorch, NumPyro, Matplotlib
-- Methods used: NLP, Exploratory data analysis, Bayesian probabilistic model
+- **Gensim**, **PyTorch**, **NumPyro**, **Matplotlib**
+- *NLP*, *Exploratory data analysis*, *Bayesian probabilistic model*
 
 ## Swedish Question Answering System
 
 - Oct 2020 – Nov 2020
-- developed a closed domain question answering system based on BERT in English and Swedish
 - Published [the Swedish SQuAD 2.0](https://huggingface.co/datasets/susumu2357/squad_v2_sv) dataset and [the fine-tuned model](huggingface.co/susumu2357/bert-base-swedish-squad2)
 - Established better scores on question answering task compared to the publicly available model
-- Technologies used: Transformers, Google Cloud Translation, Tensorflow, PyTorch
-- Methods used: Training on GPU
+- **Transformers**, **Google Cloud Translation**, **Tensorflow**, **PyTorch**
+- *Training on GPU*
 

@@ -565,7 +565,7 @@ Apr 2004 – Mar 2008
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Python, OpenAI, Ollama, FastAPI, Transformers, PyTorch, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI\/CD, MLOps, Agile, Scrum]
+  content: [#strong[Programming:] Python, OpenAI, Transformers, PyTorch, FastAPI, Qdrant, Streamlit, Gradio, Apache Spark, Databricks, SQL, BigQuery, Kafka, Elasticsearch, Google Analytics, Power BI, Docker, Git, VS Code, Cursor, CI\/CD,  Agile, Scrum]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -597,7 +597,7 @@ Apr 2004 – Mar 2008
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Data Science Professional]
+    #strong[Databricks - Data Science Professional]
   ],
   right-content: [
     June 2021
@@ -612,7 +612,7 @@ Apr 2004 – Mar 2008
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Academy Accreditation - Delta Lake Essentials]
+    #strong[Databricks - Delta Lake Essentials]
   ],
   right-content: [
     June 2021
@@ -679,7 +679,7 @@ Apr 2004 – Mar 2008
 
 
 #one-col-entry(
-  content: [- A board member of Japanese School Association in Stockholm],
+  content: [- 2024-05 - present: A board member of Japanese School Association in Stockholm],
 )
 
 
@@ -688,7 +688,75 @@ Apr 2004 – Mar 2008
 
 #two-col-entry(
   left-content: [
-    #strong[Fruit Quality Assessment System]
+    #strong[LLM Agents Development]
+  ],
+  right-content: [
+    May 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led the team to develop a backend for an agentic system integrated in the existing client's application.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Delivered strong results in 2 days hackathon as a starting point],[Designed the architecture of the agentic system using MCP server],[#strong[Azure OpenAI], #strong[FastAPI], #strong[OpenAI Agents SDK], #strong[MCP \(Model Context Protocol\)], #strong[Docker]],[#emph[LLM agents], #emph[Agile], #emph[Hackathon]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Agentic Application Development]
+  ],
+  right-content: [
+    Jan 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed an agentic application to interect with private data through chat.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed agents system on top of an open source chat interface],[Led the project to deliver a progress in fast iterations],[#strong[Azure OpenAI], #strong[Open Web UI],  #strong[FastAPI], #strong[PydanticAI], #strong[BigQuery], #strong[Docker]],[#emph[LLM agents], #emph[Agile]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[LLM-based Document Generator]
+  ],
+  right-content: [
+    Jan 2025 – Mar 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mentored a colleague to build a proof of concept application using ChatGPT for document generation.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built a RAG system to generate a document based on the past documents],[Led the project to deliver the proof of concept application in 2 months],[#strong[Azure OpenAI], #strong[Gradio],  #strong[Chroma], #strong[Docker], #strong[Microsoft Azure]],[#emph[Retrieval Augmented Generation \(RAG\)], #emph[LLM agents], #emph[Agile]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Water Leakage Prediction]
+  ],
+  right-content: [
+    Oct 2024 – May 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mentored a developer to get started with machine learning to predict water leakages in the water distribution network.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Mentored a developer to create a machine learning model to predict water leakages in the water distribution network],[Predicted leak time and location based on the given network topology and the pressure sensor data],[#strong[scikit-learn], #strong[SciPy], #strong[NumPy], #strong[plotly]],[#emph[Exploratory data analysis], #emph[Data visualization]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Fruit Quality Assessment Device]
   ],
   right-content: [
     Sept 2024 – Feb 2025
@@ -698,31 +766,31 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led a team to develop hardware, GUI, and ML models for non-destructive fruit quality assessment.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led a team to develop a hardware, a graphical user interface and machine learning models to estimate internal damage and ripeness of fruit without opening it],[Facilitated communication to achieve the fastest and the best quality of delivery],[Technologies used: Raspberry Pi, Hardware Development, Sensors, 3D printing, Python],[Methods used: IoT, Infrared spectroscopy, Agile, Scrum],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Facilitated communication to achieve the fastest and the best quality of delivery],[#strong[Raspberry Pi], #strong[Sensors], #strong[3D printing], #strong[Python]],[#emph[IoT], #emph[Infrared spectroscopy], #emph[Agile], #emph[Scrum]],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Document-based Chatbot]
+    #strong[RAG-based Chatbot]
   ],
   right-content: [
-    Sept 2024 – Oct 2024
+    Sept 2024 – Nov 2024
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led a team to develop a chatbot prototype that generates answers based on internal documents.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led a team to develop a chatbot prototype that generates answer based on the internal document],[Mentoring new hires to get up and running as quickly as possible],[Created a CI\/CD pipeline to automate container deployment to Azure],[Technologies used: Azure OpenAI, Azure AI Search, Azure Document Intelligence, Azure App Service, Gradio, GitLab CI\/CD, Docker],[Methods used: Retrieval Augmented Generation \(RAG\), ChatGPT, Agile, Scrum, Code review],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Mentoring new hires to get up and running as quickly as possible],[Created a CI\/CD pipeline to automate container deployment to Azure],[#strong[Azure OpenAI], #strong[Azure AI Search], #strong[Azure Document Intelligence], #strong[Azure App Service], #strong[Gradio], #strong[GitLab CI\/CD], #strong[Docker]],[#emph[Retrieval Augmented Generation \(RAG\)], #emph[Agile], #emph[Scrum], #emph[Code review]],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[LLM-based Consultant Profile Generator]
+    #strong[LLM-based Consultant Profile Generation]
   ],
   right-content: [
     Feb 2024 – Apr 2024
@@ -732,7 +800,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Supervised a master's thesis on generating consultant profiles using LLMs such as Mistral.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Supervised a master's thesis aiming at the generation of an on-demand consultant profile using Large Language Models \(LLMs\) such as Mistral],[Gave advice on open source vector databases and LLMs],[Supported setting up infrastructures such as Azure OpenAI and RunPod \(serverless GPU\)],[Technologies used: Azure OpenAI, ChatGPT, Qdrant, Large Language Models \(LLMs\), Mistral, Serverless GPU],[Methods used: Retrieval Augmented Generation \(RAG\), Prompt engineering],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Gave advice on open source vector databases and LLMs],[Supported setting up infrastructures such as Azure OpenAI and RunPod \(serverless GPU\)],[#strong[Azure OpenAI], #strong[Qdrant], #strong[Mistral], #strong[Serverless GPU]],[#emph[Retrieval Augmented Generation \(RAG\)], #emph[Prompt engineering]],)
   ],
 )
 
@@ -749,7 +817,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed and modernized data pipelines using Azure Databricks and CI\/CD tools.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed several data pipelines using Azure Databricks with CI\/CD tools like Github Actions],[Introduced several modern features of Databricks such as Unity Catalog, Delta Live Tables and Databricks Asset Bundles],[Developed DAX code for Power BI to process the data for dashboarding],[Technologies used: Apache Spark, PySpark, SparkSQL, Databricks, Unity Catalog, Delta Live Tables, Databricks Asset Bundles, Github Actions, Power BI, DAX],[Methods used: Data modeling, CI\/CD, Agile, Scrum],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Introduced several modern features of Databricks such as Unity Catalog, Delta Live Tables and Databricks Asset Bundles],[Developed DAX code for Power BI to process the data for dashboarding],[#strong[Apache Spark], #strong[PySpark], #strong[SparkSQL], #strong[Databricks], #strong[Unity Catalog], #strong[Delta Live Tables], #strong[Databricks Asset Bundles], #strong[Github Actions], #strong[Power BI], #strong[DAX]],[#emph[Data modeling], #emph[CI\/CD], #emph[Agile], #emph[Scrum]],)
   ],
 )
 
@@ -766,7 +834,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Built a proof of concept application using ChatGPT for document generation and vector database for PDF embeddings.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built a proof of concept application that uses ChatGPT to create a document specific to their field of expertise],[Built a vector database to store text embedding vectors extracted from PDF documents],[Developed the prompt for ChatGPT to include the relevant past document in the context],[Technologies used: NLP, ChatGPT, Qdrant, Streamlit, Docker, Microsoft Azure],[Methods used: Prompt engineering, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built a vector database to store text embedding vectors extracted from PDF documents],[Developed the prompt for ChatGPT to include the relevant past document in the context],[#strong[ChatGPT], #strong[Qdrant], #strong[Streamlit], #strong[Docker], #strong[Microsoft Azure]],[#emph[Prompt engineering], #emph[Agile]],)
   ],
 )
 
@@ -783,7 +851,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Delivered a one-day workshop on using ChatGPT with vector search, including Python and F\# code samples.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Gave a one-day workshop for another consulting company on how to use ChatGPT with vector search],[Prepared sample code in both Python and F\# because the client mainly works on .NET],[Technologies used: ChatGPT, .NET, F\#],[Methods used: Workshop],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Prepared sample code in both Python and F\# because the client mainly works on .NET],[#strong[ChatGPT], #strong[.NET], #strong[F\#]],[#emph[Workshop]],)
   ],
 )
 
@@ -800,7 +868,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Explored streaming data processing using Apache Kafka for an internal hackathon.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Explored streaming data processing using Apache Kafka],[Prepared a stack of Confluent Kafka on an internal server for an internal hackathon],[Prepared an IoT device as a data source as well as a sample MQTT consumer],[Technologies used: Apache Kafka, MQTT, Docker-compose],[Methods used: IoT, Hackathon],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Prepared a stack of Confluent Kafka on an internal server for an internal hackathon],[Prepared an IoT device as a data source as well as a sample MQTT consumer],[#strong[Apache Kafka], #strong[MQTT], #strong[Docker]],[#emph[IoT], #emph[Hackathon]],)
   ],
 )
 
@@ -815,9 +883,9 @@ Apr 2004 – Mar 2008
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Supervised a LIA internship focused on practical machine learning and data analysis.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Supervised a LIA \(Lärande i Arbete\) internship focused on practical machine learning and data analysis.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Supervised a LIA \(Lärande i Arbete\) internship who aims learning machine learning in practice],[Guided the interns on how to perform exploratory data analysis on the real data],[Provided advice on how to present findings to a broader audience],[Technologies used: pandas, scikit-learn, plotly],[Methods used: Exploratory data analysis, Code review],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Guided the interns on how to perform exploratory data analysis on the real data],[Provided advice on how to present findings to a broader audience],[#strong[pandas], #strong[scikit-learn], #strong[plotly]],[#emph[Exploratory data analysis], #emph[Code review]],)
   ],
 )
 
@@ -834,7 +902,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a machine translation API, ML pipelines, and a dashboard for ChatGPT testing.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a machine translation API, machine learning pipelines, and a dashboard for testing ChatGPT, which was an emerging technology],[Built the machine learning pipeline using Amazon SageMaker],[Built the translation API using FastAPI and Amazon Lambda],[Technologies used: FastAPI, AWS SageMaker, AWS Lambda, Amazon ECR, Docker],[Methods used: Machine translation, MLOps, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built the machine learning pipeline using Amazon SageMaker],[Built the translation API using FastAPI and Amazon Lambda],[#strong[FastAPI], #strong[AWS SageMaker], #strong[AWS Lambda], #strong[Amazon ECR], #strong[Docker]],[#emph[Machine translation], #emph[MLOps], #emph[Agile]],)
   ],
 )
 
@@ -851,7 +919,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed ML models and algorithms for mobile device location estimation and statistics aggregation.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed new machine learning models to estimate the location of mobile device based only on the ping time series],[Developed new gridding algorithms which are used in the aggregation of statistics],[Applied geospatial functions in BigQuery, taking care of the amount of data, which is a few hundred GB per day per country],[Technologies used: BigQuery, OpenStreetMap, GeoPandas, NumPy, Shapely, NumPyro, PyStan, Google Cloud, Docker],[Methods used: Exploratory data analysis, Geospatial analysis, Bayesian hierarchical model, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed new machine learning models to estimate the location of mobile device based only on the ping time series],[Developed new gridding algorithms which are used in the aggregation of statistics],[Applied geospatial functions in BigQuery, taking care of the amount of data, which is a few hundred GB per day per country],[#strong[BigQuery], #strong[OpenStreetMap], #strong[GeoPandas], #strong[NumPy], #strong[Shapely], #strong[NumPyro], #strong[PyStan], #strong[Google Cloud], #strong[Docker]],[#emph[Exploratory data analysis], #emph[Geospatial analysis], #emph[Bayesian hierarchical model], #emph[Agile]],)
   ],
 )
 
@@ -868,7 +936,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Supported strategy and used Optuna for optimal physics parameter search in fluid property models.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Supported a colleague in building the strategy and the customer relationship],[Suggested using Optuna to find the optimal physics parameters in the model which estimate the fluid properties flowing through pipe],[Technologies used: Optuna, scikit-learn, SciPy, NumPy, pandas],[Methods used: Exploratory data analysis, Hyper parameter tuning],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Suggested using Optuna to find the optimal physics parameters in the model which estimate the fluid properties flowing through pipe],[#strong[Optuna], #strong[scikit-learn], #strong[SciPy], #strong[NumPy], #strong[pandas]],[#emph[Exploratory data analysis], #emph[Hyper parameter tuning]],)
   ],
 )
 
@@ -883,9 +951,9 @@ Apr 2004 – Mar 2008
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a model to estimate public transport share and travel time ratios, with dashboard presentation.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed an unsupervised model to estimate public transport share and travel time ratios, with dashboard presentation.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed the travel mode detection model which can estimate the public transport share and the ratio of the travel time between the public transport and the private car],[Presented the results in a dashboard developed by Plotly Dash],[Technologies used: scikit-learn, SciPy, NumPy, pandas, Plotly, Dash, Docker],[Methods used: Exploratory data analysis, Data visualization],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Presented the results in a dashboard developed by Plotly Dash],[Developed an unsupervised model to estimate public transport share and travel time ratios],[#strong[scikit-learn], #strong[SciPy], #strong[NumPy], #strong[pandas], #strong[Plotly], #strong[Dash], #strong[Docker]],[#emph[Exploratory data analysis], #emph[Data visualization]],)
   ],
 )
 
@@ -902,7 +970,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Analyzed returns of spare parts and created SQL queries for data aggregation and visualization.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Analyzed returns of spare parts for all kinds of car and build a basis of further analysis],[Created SQL queries which aggregate data from a bunch of tables],[Visualized the results to grasp an overview of the returns],[Technologies used: Microsoft SQL Server, pandas, Plotly],[Methods used: Exploratory data analysis, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Created SQL queries which aggregate data from a bunch of tables],[Visualized the results to grasp an overview of the returns],[#strong[Microsoft SQL Server], #strong[pandas], #strong[Plotly]],[#emph[Exploratory data analysis], #emph[Agile]],)
   ],
 )
 
@@ -919,7 +987,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Designed and trained a GPT-2 chatbot for domestic abuse support, deployed as a web API.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed the training data for a GPT-2 based chatbot which consults people suffering in domestic abuse],[Trained the GPT-2 based chatbot on a GPU in Azure],[Deployed the model in Azure Functions as a web API, which can be invoked from the mobile app],[Technologies used: pandas, GPT-2, Plotly, Streamlit, Docker, Microsoft Azure],[Methods used: NLP, Training on GPU, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed the training data for a GPT-2 based chatbot which consults people suffering in domestic abuse],[Trained the GPT-2 based chatbot on a GPU in Azure],[Deployed the model in Azure Functions as a web API, which can be invoked from the mobile app],[#strong[pandas], #strong[GPT-2], #strong[Plotly], #strong[Streamlit], #strong[Docker], #strong[Microsoft Azure]],[#emph[NLP], #emph[Training on GPU], #emph[Agile]],)
   ],
 )
 
@@ -936,7 +1004,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed text analysis and visualization tools for procurement documents, published a paper with the client.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed text analysis and visualization tools using Elasticsearch, Kibana, and Streamlit for procurement documents in PDF],[Deployed the applications as containerized web applications on Azure],[Published #link("https://research.chalmers.se/en/publication/534112")[a paper in proceeding] with the client],[Technologies used: Elasticsearch, Kibana, Streamlit, Docker, Docker-compose, Word2Vec, Plotly, Microsoft Azure],[Methods used: NLP, Agile],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed text analysis and visualization tools using Elasticsearch, Kibana, and Streamlit for procurement documents in PDF],[Deployed the applications as containerized web applications on Azure],[Published #link("https://research.chalmers.se/en/publication/534112")[a paper in proceeding] with the client],[#strong[Elasticsearch], #strong[Kibana], #strong[Streamlit], #strong[Docker], #strong[Word2Vec], #strong[Plotly], #strong[Microsoft Azure]],[#emph[NLP], #emph[Agile]],)
   ],
 )
 
@@ -953,7 +1021,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Built a prototype what-if tool for analyzing driver and target values, with Bayesian modeling.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built a prototype of a what-if tool which analyzes relationship between various driver values, such as punctuality, and target values, such as customer satisfaction index],[Developed the dashboard in one week, including the requested feature and two novel features],[Developed Bayesian hierarchical models to estimate relationship between the drivers and the targets for each user group],[Technologies used: NumPy, pandas, scikit-learn, NumPyro, GPy, Plotly, Dash, Voilà, Heroku],[Methods used: Exploratory data analysis, Data visualization, Bayesian hierarchical model],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built a prototype of a what-if tool which analyzes relationship between various driver values, such as punctuality, and target values, such as customer satisfaction index],[Developed the dashboard in one week, including the requested feature and two novel features],[Developed Bayesian hierarchical models to estimate relationship between the drivers and the targets for each user group],[#strong[NumPy], #strong[pandas], #strong[scikit-learn], #strong[NumPyro], #strong[GPy], #strong[Plotly], #strong[Dash], #strong[Voilà], #strong[Heroku]],[#emph[Exploratory data analysis], #emph[Data visualization], #emph[Bayesian hierarchical model]],)
   ],
 )
 
@@ -970,7 +1038,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Analyzed stress management app data, identified personality clusters, and published a peer-reviewed paper.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Analyzed the questionnaire and stress-related time series data collected by a stress management application],[Identified clusters of personality traits that have strong confounding relationships with stress related variables],[Published #link("https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12436")[a peer reviewed paper] with the client],[Technologies used: NumPy, pandas, scikit-learn, tslearn, GPy, Matplotlib, Plotly],[Methods used: Statistical test, Time series analysis],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Identified clusters of personality traits that have strong confounding relationships with stress related variables],[Published #link("https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12436")[a peer reviewed paper] with the client],[#strong[NumPy], #strong[pandas], #strong[scikit-learn], #strong[tslearn], #strong[GPy], #strong[Matplotlib], #strong[Plotly]],[#emph[Statistical test], #emph[Time series analysis]],)
   ],
 )
 
@@ -987,7 +1055,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Analyzed customer journey factors using NLP and Bayesian models.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Analyzed the factors that influence the customer journey, for example, the number of calls, personal background, and content of text messages],[Used Natural Language Processing \(NLP\), which involves text classification, topic modelling, and feature extraction],[Gained insights from time series analysis using Bayesian probabilistic models],[Technologies used: Gensim, PyTorch, NumPyro, Matplotlib],[Methods used: NLP, Exploratory data analysis, Bayesian probabilistic model],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Used Natural Language Processing \(NLP\), which involves text classification, topic modelling, and feature extraction],[Gained insights from time series analysis using Bayesian probabilistic models],[#strong[Gensim], #strong[PyTorch], #strong[NumPyro], #strong[Matplotlib]],[#emph[NLP], #emph[Exploratory data analysis], #emph[Bayesian probabilistic model]],)
   ],
 )
 
@@ -1004,7 +1072,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a closed domain QA system based on BERT for English and Swedish, published dataset and model.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([developed a closed domain question answering system based on BERT in English and Swedish],[Published #link("https://huggingface.co/datasets/susumu2357/squad_v2_sv")[the Swedish SQuAD 2.0] dataset and #link("huggingface.co/susumu2357/bert-base-swedish-squad2")[the fine-tuned model]],[Established better scores on question answering task compared to the publicly available model],[Technologies used: Transformers, Google Cloud Translation, Tensorflow, PyTorch],[Methods used: Training on GPU],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Published #link("https://huggingface.co/datasets/susumu2357/squad_v2_sv")[the Swedish SQuAD 2.0] dataset and #link("huggingface.co/susumu2357/bert-base-swedish-squad2")[the fine-tuned model]],[Established better scores on question answering task compared to the publicly available model],[#strong[Transformers], #strong[Google Cloud Translation], #strong[Tensorflow], #strong[PyTorch]],[#emph[Training on GPU]],)
   ],
 )
 
