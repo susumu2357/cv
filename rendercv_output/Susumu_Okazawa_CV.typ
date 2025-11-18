@@ -740,7 +740,7 @@ Apr 2004 – Mar 2008
     #strong[Agentic Application Development]
   ],
   right-content: [
-    Jan 2025 – present
+    Jan 2025 – Aug 2025
   ],
 )
 #one-col-entry(

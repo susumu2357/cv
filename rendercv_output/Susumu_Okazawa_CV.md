@@ -112,7 +112,7 @@
 
 ## Agentic Application Development
 
-- Jan 2025 – present
+- Jan 2025 – Aug 2025
 - Developed agents system on top of an open source chat interface
 - Led the project to deliver a progress in fast iterations
 - **Azure OpenAI**, **Open Web UI**,  **FastAPI**, **PydanticAI**, **BigQuery**, **Docker**
