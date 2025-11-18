@@ -3,7 +3,7 @@
 
 #let name = "Susumu Okazawa"
 #let locale-catalog-page-numbering-style = context { "Susumu Okazawa - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in May 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Nov 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.4em
