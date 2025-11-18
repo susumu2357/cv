@@ -99,7 +99,7 @@
 - Oct 2025 – present
 - Shared best practices of developing LLM agents
 - Helped to design the architecture of the agentic system interacting with PostGIS database
-- **Azure OpenAI**, **SQL**, **MCP (Model Context Protocol)**, **Docker**
+- **Azure OpenAI**, **SQL**, **Model Context Protocol (MCP)**, **Docker**
 - *LLM agents*, *Agile*
 
 ## LLM Agents Development
@@ -107,7 +107,7 @@
 - May 2025 – present
 - Delivered strong results in 2 days hackathon as a starting point
 - Designed the architecture of the agentic system using MCP server
-- **Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP (Model Context Protocol)**, **Docker**
+- **Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP**, **Docker**
 - *LLM agents*, *Agile*, *Hackathon*
 
 ## Agentic Application Development

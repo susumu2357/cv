@@ -133,7 +133,7 @@ cv:
         highlights:
           - "Shared best practices of developing LLM agents"
           - "Helped to design the architecture of the agentic system interacting with PostGIS database"
-          - "**Azure OpenAI**, **SQL**, **MCP (Model Context Protocol)**, **Docker**"
+          - "**Azure OpenAI**, **SQL**, **Model Context Protocol (MCP)**, **Docker**"
           - "*LLM agents*, *Agile*"
       - name: LLM Agents Development
         company: IT Services industry
@@ -145,7 +145,7 @@ cv:
         highlights:
           - "Delivered strong results in 2 days hackathon as a starting point"
           - "Designed the architecture of the agentic system using MCP server"
-          - "**Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP (Model Context Protocol)**, **Docker**"
+          - "**Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP**, **Docker**"
           - "*LLM agents*, *Agile*, *Hackathon*"
       - name: Agentic Application Development
         company: Distribution industry

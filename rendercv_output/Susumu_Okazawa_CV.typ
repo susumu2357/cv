@@ -713,7 +713,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Gave advice on developing LLM agents to interact with geospatial data through chat interface.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Shared best practices of developing LLM agents],[Helped to design the architecture of the agentic system interacting with PostGIS database],[#strong[Azure OpenAI], #strong[SQL], #strong[MCP \(Model Context Protocol\)], #strong[Docker]],[#emph[LLM agents], #emph[Agile]],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Shared best practices of developing LLM agents],[Helped to design the architecture of the agentic system interacting with PostGIS database],[#strong[Azure OpenAI], #strong[SQL], #strong[Model Context Protocol \(MCP\)], #strong[Docker]],[#emph[LLM agents], #emph[Agile]],)
   ],
 )
 
@@ -730,7 +730,7 @@ Apr 2004 – Mar 2008
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led the team to develop a backend for an agentic system integrated in the existing client's application.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Delivered strong results in 2 days hackathon as a starting point],[Designed the architecture of the agentic system using MCP server],[#strong[Azure OpenAI], #strong[FastAPI], #strong[OpenAI Agents SDK], #strong[MCP \(Model Context Protocol\)], #strong[Docker]],[#emph[LLM agents], #emph[Agile], #emph[Hackathon]],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Delivered strong results in 2 days hackathon as a starting point],[Designed the architecture of the agentic system using MCP server],[#strong[Azure OpenAI], #strong[FastAPI], #strong[OpenAI Agents SDK], #strong[MCP], #strong[Docker]],[#emph[LLM agents], #emph[Agile], #emph[Hackathon]],)
   ],
 )
 
