@@ -1,11 +1,18 @@
 # Susumu Okazawa's CV
 
-- Email: [susumu.0112357@gmail.com](mailto:susumu.0112357@gmail.com)
+- Email: [susumu.okazawa@leastaction-ab.com](mailto:susumu.okazawa@leastaction-ab.com)
 - Location: Stockholm, Sweden
 - LinkedIn: [susumu-okazawa-b954421b5](https://linkedin.com/in/susumu-okazawa-b954421b5)
 
 
 # Experience
+
+## Least Action AB, CEO
+
+- Oct 2025 – present
+- Sweden
+- Founded a startup to develop LLM powered legal assistant to support patent attorneys
+- Open to working with clients from any industry who want to develop AI applications
 
 ## Savantic AB, Senior Data Scientist
 
@@ -86,6 +93,14 @@
 
 - 2024-05 - present: A board member of Japanese School Association in Stockholm
 # Projects
+
+## LLM Agents for Geodata
+
+- Oct 2025 – present
+- Shared best practices of developing LLM agents
+- Helped to design the architecture of the agentic system interacting with PostGIS database
+- **Azure OpenAI**, **SQL**, **MCP (Model Context Protocol)**, **Docker**
+- *LLM agents*, *Agile*
 
 ## LLM Agents Development
 

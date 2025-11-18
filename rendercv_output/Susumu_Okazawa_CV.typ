@@ -452,7 +452,7 @@
 // Print connections:
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Stockholm, Sweden],
-  [#box(original-link("mailto:susumu.0112357@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)susumu.0112357\@gmail.com])],
+  [#box(original-link("mailto:susumu.okazawa@leastaction-ab.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)susumu.okazawa\@leastaction-ab.com])],
   [#box(original-link("https://linkedin.com/in/susumu-okazawa-b954421b5")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)susumu-okazawa-b954421b5])],
 )
 #connections(connections-list)
@@ -462,6 +462,21 @@
 == Experience
 
 
+#two-col-entry(
+  left-content: [
+    #strong[Least Action AB], CEO
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([Founded a startup to develop LLM powered legal assistant to support patent attorneys],[Open to working with clients from any industry who want to develop AI applications],)
+  ],
+  right-content: [
+    Sweden
+
+Oct 2025 – present
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Savantic AB], Senior Data Scientist
@@ -686,6 +701,23 @@ Apr 2004 – Mar 2008
 == Projects
 
 
+#two-col-entry(
+  left-content: [
+    #strong[LLM Agents for Geodata]
+  ],
+  right-content: [
+    Oct 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Gave advice on developing LLM agents to interact with geospatial data through chat interface.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Shared best practices of developing LLM agents],[Helped to design the architecture of the agentic system interacting with PostGIS database],[#strong[Azure OpenAI], #strong[SQL], #strong[MCP \(Model Context Protocol\)], #strong[Docker]],[#emph[LLM agents], #emph[Agile]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[LLM Agents Development]
