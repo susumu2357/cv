@@ -694,13 +694,85 @@ Apr 2004 – Mar 2008
 
 
 #one-col-entry(
-  content: [- 2024-05 - present: A board member of Japanese School Association in Stockholm],
+  content: [- 2024-05 - 2026-05: A board member of Japanese School Association in Stockholm],
 )
 
 
-== Projects
+== Projects at Least Action AB
 
 
+#two-col-entry(
+  left-content: [
+    #strong[AI Toolkit for Patent Attorneys]
+  ],
+  right-content: [
+    Nov 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Built and operate an AI platform that supports patent attorneys in drafting, translation, prosecution and prior art search, in production use at a Japanese IP law firm.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Turned my experience as a patent attorney into machine-checkable quality rules \(claim consistency, support requirements, reference numerals, filing formats\), so the AI delivers only documents that pass the checks],[Moved the delivery architecture forward as the ecosystem evolved, from Agent Skills to a Word add-in and then a client-agnostic MCP server with Entra ID and OneDrive, so the same tools work from Claude, ChatGPT and legal AI platforms],[Delivered patent translation across JP, PCT, US, EP, CN, KR and TW that preserves equations, chemical formulas and tables, plus OCR for PDF sources and editable patent drawings],[Created an evaluation pipeline with rubrics designed from a patent attorney's perspective, combining rule-based metrics and LLM-as-a-judge to compare closed and open models on quality, cost and latency before each model switch],[#strong[Claude], #strong[GPT], #strong[Gemini], #strong[MCP], #strong[Office Add-ins], #strong[Microsoft Entra ID], #strong[Inspect AI], #strong[Azure Container Apps], #strong[Google Cloud], #strong[BigQuery]],[#emph[LLM agents], #emph[Domain-specific evaluation], #emph[Legal tech]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[On-premise LLMs for Confidential Documents]
+  ],
+  right-content: [
+    Jan 2026 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Evaluated running open-weight LLMs on premises so that confidential documents never leave the client's network.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Benchmarked throughput, latency and concurrent users of quantized open-weight models on GPU, and turned the results into hardware recommendations by team size],[Ran LoRA fine-tuning experiments],[#strong[Qwen], #strong[DeepSeek], #strong[LoRA], #strong[Modal], #strong[Docker]],[#emph[Open-weight LLMs], #emph[Fine-tuning], #emph[Benchmarking]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Patent Landscape Agent]
+  ],
+  right-content: [
+    Sept 2026 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed an agent that runs a patent landscape analysis end to end, from collecting data to an offline HTML report.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Encoded the analyst's workflow: population design, applicant name normalization, AI-based classification beyond IPC\/FI, hypothesis-driven analysis loops and standard patent maps],[Supports J-PlatPat exports and the EPO Open Patent Services],[#strong[Claude], #strong[ChatGPT], #strong[EPO OPS], #strong[SQL], #strong[Agent Skills]],[#emph[LLM agents], #emph[Patent analytics], #emph[Data visualization]],)
+  ],
+)
+
+
+
+== Projects at Savantic
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Agent Skills for building model]
+  ],
+  right-content: [
+    May 2026 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed an agent skill that reviews building information models.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed an agent skill for reviewing Industry Foundation Classes \(IFC\) files],[Designed the skill with pluggable domain knowledge],[#strong[Agent skills], #strong[IfcOpenShell]],[#emph[LLM agents], #emph[Agile]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[LLM Agents for Geodata]
@@ -723,14 +795,14 @@ Apr 2004 – Mar 2008
     #strong[LLM Agents Development]
   ],
   right-content: [
-    May 2025 – present
+    May 2025 – May 2026
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led the team to develop a backend for an agentic system integrated in the existing client's application.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Delivered strong results in 2 days hackathon as a starting point],[Designed the architecture of the agentic system using MCP server],[#strong[Azure OpenAI], #strong[FastAPI], #strong[OpenAI Agents SDK], #strong[MCP], #strong[Docker]],[#emph[LLM agents], #emph[Agile], #emph[Hackathon]],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Delivered PoC results in 2 days hackathon as a starting point],[Designed the architecture of the agentic system using MCP server],[#strong[Azure OpenAI], #strong[FastAPI], #strong[OpenAI Agents SDK], #strong[MCP], #strong[Docker]],[#emph[Retrieval Augmented Generation \(RAG\)], #emph[LLM agents], #emph[Agile], #emph[Hackathon]],)
   ],
 )
 

@@ -119,10 +119,61 @@ cv:
         url: https://research.chalmers.se/en/publication/534112
         doi: 10.1201/9781003348443-258
     extracurricular_activities:
-      - bullet: "2024-05 - present: A board member of Japanese School Association in Stockholm"
+      - bullet: "2024-05 - 2026-05: A board member of Japanese School Association in Stockholm"
 
+    Projects at Least Action AB:
+      - name: AI Toolkit for Patent Attorneys
+        company: IP law firm
+        position: Founder, architect and sole developer
+        date:
+        start_date: 2025-11
+        end_date: present
+        summary: Built and operate an AI platform that supports patent attorneys in drafting, translation, prosecution and prior art search, in production use at a Japanese IP law firm.
+        highlights:
+          - "Turned my experience as a patent attorney into machine-checkable quality rules (claim consistency, support requirements, reference numerals, filing formats), so the AI delivers only documents that pass the checks"
+          - "Moved the delivery architecture forward as the ecosystem evolved, from Agent Skills to a Word add-in and then a client-agnostic MCP server with Entra ID and OneDrive, so the same tools work from Claude, ChatGPT and legal AI platforms"
+          - "Delivered patent translation across JP, PCT, US, EP, CN, KR and TW that preserves equations, chemical formulas and tables, plus OCR for PDF sources and editable patent drawings"
+          - "Created an evaluation pipeline with rubrics designed from a patent attorney's perspective, combining rule-based metrics and LLM-as-a-judge to compare closed and open models on quality, cost and latency before each model switch"
+          - "**Claude**, **GPT**, **Gemini**, **MCP**, **Office Add-ins**, **Microsoft Entra ID**, **Inspect AI**, **Azure Container Apps**, **Google Cloud**, **BigQuery**"
+          - "*LLM agents*, *Domain-specific evaluation*, *Legal tech*"
+      - name: On-premise LLMs for Confidential Documents
+        company: IP law firm
+        position: Founder, architect and sole developer
+        date:
+        start_date: 2026-01
+        end_date: present
+        summary: Evaluated running open-weight LLMs on premises so that confidential documents never leave the client's network.
+        highlights:
+          - "Benchmarked throughput, latency and concurrent users of quantized open-weight models on GPU, and turned the results into hardware recommendations by team size"
+          - "Ran LoRA fine-tuning experiments"
+          - "**Qwen**, **DeepSeek**, **LoRA**, **Modal**, **Docker**"
+          - "*Open-weight LLMs*, *Fine-tuning*, *Benchmarking*"
+      - name: Patent Landscape Agent
+        company: IP law firm
+        position: Founder, architect and sole developer
+        date:
+        start_date: 2026-09
+        end_date: present
+        summary: Developed an agent that runs a patent landscape analysis end to end, from collecting data to an offline HTML report.
+        highlights:
+          - "Encoded the analyst's workflow: population design, applicant name normalization, AI-based classification beyond IPC/FI, hypothesis-driven analysis loops and standard patent maps"
+          - "Supports J-PlatPat exports and the EPO Open Patent Services"
+          - "**Claude**, **ChatGPT**, **EPO OPS**, **SQL**, **Agent Skills**"
+          - "*LLM agents*, *Patent analytics*, *Data visualization*"
 
-    projects:
+    Projects at Savantic:
+      - name: Agent Skills for building model
+        company: Construction industry
+        position: Advisor and developer
+        date:
+        start_date: 2026-05
+        end_date: present
+        summary: Developed an agent skill that reviews building information models.
+        highlights:
+          - "Developed an agent skill for reviewing Industry Foundation Classes (IFC) files"
+          - "Designed the skill with pluggable domain knowledge"
+          - "**Agent skills**, **IfcOpenShell**"
+          - "*LLM agents*, *Agile*"
       - name: LLM Agents for Geodata
         company: Public sector
         position: Advisor
@@ -140,13 +191,13 @@ cv:
         position: Project lead
         date:
         start_date: 2025-05
-        end_date: present
+        end_date: 2026-05
         summary: Led the team to develop a backend for an agentic system integrated in the existing client's application.
         highlights:
-          - "Delivered strong results in 2 days hackathon as a starting point"
+          - "Delivered PoC results in 2 days hackathon as a starting point"
           - "Designed the architecture of the agentic system using MCP server"
           - "**Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP**, **Docker**"
-          - "*LLM agents*, *Agile*, *Hackathon*"
+          - "*Retrieval Augmented Generation (RAG)*, *LLM agents*, *Agile*, *Hackathon*"
       - name: Agentic Application Development
         company: Distribution industry
         position: Data scientist

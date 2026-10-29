@@ -91,8 +91,44 @@
 
 # Extracurricular Activities
 
-- 2024-05 - present: A board member of Japanese School Association in Stockholm
-# Projects
+- 2024-05 - 2026-05: A board member of Japanese School Association in Stockholm
+# Projects at Least Action AB
+
+## AI Toolkit for Patent Attorneys
+
+- Nov 2025 – present
+- Turned my experience as a patent attorney into machine-checkable quality rules (claim consistency, support requirements, reference numerals, filing formats), so the AI delivers only documents that pass the checks
+- Moved the delivery architecture forward as the ecosystem evolved, from Agent Skills to a Word add-in and then a client-agnostic MCP server with Entra ID and OneDrive, so the same tools work from Claude, ChatGPT and legal AI platforms
+- Delivered patent translation across JP, PCT, US, EP, CN, KR and TW that preserves equations, chemical formulas and tables, plus OCR for PDF sources and editable patent drawings
+- Created an evaluation pipeline with rubrics designed from a patent attorney's perspective, combining rule-based metrics and LLM-as-a-judge to compare closed and open models on quality, cost and latency before each model switch
+- **Claude**, **GPT**, **Gemini**, **MCP**, **Office Add-ins**, **Microsoft Entra ID**, **Inspect AI**, **Azure Container Apps**, **Google Cloud**, **BigQuery**
+- *LLM agents*, *Domain-specific evaluation*, *Legal tech*
+
+## On-premise LLMs for Confidential Documents
+
+- Jan 2026 – present
+- Benchmarked throughput, latency and concurrent users of quantized open-weight models on GPU, and turned the results into hardware recommendations by team size
+- Ran LoRA fine-tuning experiments
+- **Qwen**, **DeepSeek**, **LoRA**, **Modal**, **Docker**
+- *Open-weight LLMs*, *Fine-tuning*, *Benchmarking*
+
+## Patent Landscape Agent
+
+- Sept 2026 – present
+- Encoded the analyst's workflow: population design, applicant name normalization, AI-based classification beyond IPC/FI, hypothesis-driven analysis loops and standard patent maps
+- Supports J-PlatPat exports and the EPO Open Patent Services
+- **Claude**, **ChatGPT**, **EPO OPS**, **SQL**, **Agent Skills**
+- *LLM agents*, *Patent analytics*, *Data visualization*
+
+# Projects at Savantic
+
+## Agent Skills for building model
+
+- May 2026 – present
+- Developed an agent skill for reviewing Industry Foundation Classes (IFC) files
+- Designed the skill with pluggable domain knowledge
+- **Agent skills**, **IfcOpenShell**
+- *LLM agents*, *Agile*
 
 ## LLM Agents for Geodata
 
@@ -104,11 +140,11 @@
 
 ## LLM Agents Development
 
-- May 2025 – present
-- Delivered strong results in 2 days hackathon as a starting point
+- May 2025 – May 2026
+- Delivered PoC results in 2 days hackathon as a starting point
 - Designed the architecture of the agentic system using MCP server
 - **Azure OpenAI**, **FastAPI**, **OpenAI Agents SDK**, **MCP**, **Docker**
-- *LLM agents*, *Agile*, *Hackathon*
+- *Retrieval Augmented Generation (RAG)*, *LLM agents*, *Agile*, *Hackathon*
 
 ## Agentic Application Development
 
